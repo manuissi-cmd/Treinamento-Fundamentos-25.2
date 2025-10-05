@@ -1,1 +1,37 @@
-<!-- Colocar código HTML aqui (e linkar js e css!) -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Atlética Poli - USP</title>
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="brand">
+      <img src="./assets/imgs/atletica-logo.png.jpeg" alt="Atlética Poli USP" class="logo-img">
+      <span class="brand-name">ATLÉTICA POLI – USP</span>
+    </div>
+
+    <div class="nav-right">
+      <span class="user">Olá, manu.issi</span>
+      <button id="cart-btn" class="cart">
+        <span class="cart-icon"></span>
+        <span id="cart-count">0</span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1>Produtos</h1>
+    <div id="products" class="grid"></div>
+  </main>
+</body>
+</html>
